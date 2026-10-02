@@ -12,28 +12,16 @@ header {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    margin-bottom: 40px;
-    padding: 30px 0;
+    padding: 30px;
+    position: sticky;
+    top: 0;
+    background-color: #1F2937;
 }
 
 .logo {
     font-size: 24px;
     font-weight: 800;
     color: #F9FAF8
-}
-
-.first {
-    display: flex;
-}
-
-button {
-    width: 100px;
-    flex-grow: 0 0 0;
-}
-
-.insidefirst {
-    display: flex;
-    flex-direction: column;
 }
 
 ul {
@@ -49,11 +37,112 @@ li {
 }
 
 a {
-    color: #F9FAF8;
+    color: lightgray;
     text-decoration: none;
     font-size: 18px;
 }
 
 a:hover {
     text-decoration: underline;
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+    gap: 10px;
+}
+
+.first img {
+    display: flex;
+    width: 500px;
+}
+
+.insidefirst button {
+    width: 140px;
+    flex-grow: 0;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: #3882F6;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    padding: 8px 20px;
+}
+
+.insidefirst {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 500px;
+    margin-right: 10px;
+}
+
+.firsttitle {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.insidefirst p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.second {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding: 40px;
+    padding-top: 0;
+    padding-bottom: 80px;
+}
+
+.secondtitle {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    padding: 40px;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+}
+
+.card img {
+    width: 200px;
+    height: 150px;
+    border: 2px solid #3882F6;
+    border-radius: 15px;
+}
+
+.third {
+    background-color: #E5E7EB;
+}
+
+.fourth {
+    background-color: white;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 13px;
+    padding: 20px;
 }
